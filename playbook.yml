@@ -1,0 +1,11 @@
+- name: SetUp WordPress
+  hosts: wordpress
+  become: yes
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  roles:
+    # - nginx
+    # - mysql
+    # - php
+    # - nodejs
+    - wordpress

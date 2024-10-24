@@ -1,0 +1,10 @@
+---
+db_name: wordpress
+db_user: wordpress
+db_password: 123456
+db_host: localhost
+
+nginx_server_name: aic-uog.tech
+wordpress_url: https://wordpress.org/latest.tar.gz
+wordpress_install_dir: /var/www/html/
+wordpress_config_dir: /var/www/html/wordpress/
