@@ -1,7 +1,7 @@
 server {
     listen 80;
     server_name {{ nginx_server_name }};
-    root {{ wordpress_install_dir }};
+    root {{ wordpress_config_dir }};
     index index.php index.html index.htm;
 
     location / {
